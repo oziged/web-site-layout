@@ -1,0 +1,305 @@
+@media only screen and (max-width : 1700px)
+  .section_ideas
+    &_left_block
+    &_right_block
+      h2
+        background-color: rgba(255,255,255,.4)
+
+@media only screen and (max-width : 1500px)
+  .section_contact_inner
+    .left_block
+      width: 100%
+      padding-right: 90px
+    .right_block
+      display: none
+
+  .section_work
+    &_list_item
+      .text
+        font-size: 45px
+  
+@media only screen and (max-width : 1350px)
+  .section_ideas
+    flex-direction: column
+    height: auto
+    &_left_block
+      margin-top: 100px
+      width: 100%
+      h2,p
+        margin: 0
+        text-align: center
+      p
+        width: 65%
+        margin: 0 auto
+    &_right_block
+      width: 100%
+      margin: 100px 0 200px 0
+      h2
+        background-color: transparent
+     
+
+@media only screen and (max-width : 1300px)
+  .section_categories
+    &_block
+      font-size: 48px
+
+  .section_work
+    &_projects_wrapper_text
+      padding: 50px 0 50px 0
+    &_projects_slider
+      .desc_block
+        h2
+          font-size: 35px
+          line-height: 37px
+          width: auto
+          margin-bottom: 10px
+        p
+          line-height: 25px
+      &_min
+        .img_wrapper
+          width: 15%
+          height: auto
+
+
+@media only screen and (max-width : 1100px)
+  .section_categories
+    &_block
+      font-size: 35px
+
+  .section_work
+    &_projects_slider
+      .number
+        font-size: 350px
+
+@media only screen and (max-width : 1000px)
+  .section_work
+    &_list_item
+      .digit
+        font-size: 180px
+      .text
+        font-size: 35px
+    &_projects_wrapper
+      width: 95%
+    &_projects_slider
+      flex-direction: column
+      .control_buttons
+        display: flex
+        height: 50px
+        top: 300px
+        width: 200px
+        .button_prev, .button_next
+          margin: 0
+          height: 100%
+          width: 50%
+        .button_prev
+          border-right: .5px solid rgba(0,0,0,.4)
+      .picture_block
+        width: 100%
+        height: 300px
+        img
+          width: 100%
+          right: 0
+      .number
+        display: none
+      .desc_block
+        width: 100%
+        left: 0
+        h2
+          text-align: center
+          margin-top: 40px
+        p
+          padding: 0 20px 0 20px
+        button
+          margin: 0 auto
+  
+  
+  .section_logos
+    &_inner
+      width: 100%
+
+  .section_aims
+    &_left_block
+      .slider_small_numbers
+      .slider_interact_block
+        .slider_number
+          .slider_text
+            font-size: 70px
+            width: 600px
+
+@media only screen and (max-width : 950px)
+  .section_categories
+    flex-wrap: wrap
+    &_block
+      padding: 200px 0 200px 0
+      width: 50%
+
+  .section_aims
+    .slider_text_mobile
+      display: block
+      position: absolute
+      transform: translate(-50%,-50%)
+      top: 50%
+      left: 50%
+      font-size: 60px
+      text-align: center
+      font-weight: bold
+      background-color: rgba(255,255,255,.3)
+    &_left_block
+      width: auto
+      position: absolute
+      z-index: 100
+      height: auto
+      bottom: 0
+      left: 50%
+      transform: translateX(-50%)
+      .slider_small_numbers
+        position: relative
+        left: auto
+        bottom: auto
+        width: auto
+        margin-bottom: 30px
+        li
+          &:first-child
+            margin-left: 0
+          &:last-child
+            margin-right: 0
+      .slider_interact_block_wrapper
+        margin-left: 0
+        width: auto
+        height: auto
+        margin-bottom: 20px
+        .slider_interact_block
+          flex-direction: row
+          .slider_prev
+            border-bottom: 3px solid #eff1f5
+            &:before
+             display: none
+          .slider_next
+            border-top: 3px solid #eff1f5
+        .slider_number
+          display: none
+          
+    &_right_block
+      width: 100%
+      &:before
+        content: ''
+        display: block
+        width: 100%
+        height: 100%
+        background-color: rgba(0,0,0,.2)
+  
+@media only screen and (max-width : 840px)
+  .section_contact_inner
+    width: 90%
+
+  .header_nav_list
+    justify-content: flex-end
+    li
+      display: none
+    &_burger
+      display: block
+      margin-right: 47px
+      &_inner
+  
+  .section_ideas
+    &_right_block
+      h2
+        padding-left: 12%
+        margin: 0
+        background-color: rgba(255,255,255,.4)
+
+@media only screen and (max-width : 700px)
+  .section_work
+    &_list_item
+      .digit
+        font-size: 160px
+      .text
+        font-size: 25px
+
+  .section_contact_inner
+    h3
+      text-align: center
+    .left_block
+      padding: 0 20px 0 20px
+
+  .section_ideas
+    &_left_block
+      h2
+        font-size: 60px
+      p
+        margin-bottom: 50px
+    &_right_block
+      h2
+        padding: 0
+        text-align: center
+        font-size: 70px
+        line-height: normal
+    &_back_block
+      width: 100%
+      height: auto
+  
+  .section_logos
+    &_inner
+      flex-wrap: wrap
+      margin-bottom: -50px
+      .img_wrapper
+        text-align: center
+        width: calc(100%/3)
+        margin-bottom: 50px
+
+@media only screen and (max-width : 500px)
+  .section_work
+    &_list
+      flex-direction: column
+      &_item
+        width: auto
+
+
+  .section_aims
+    .slider_text_mobile
+      font-size: 35px
+
+
+  .section_categories
+    &_block
+      padding: 100px 0 100px 0
+      width: 100%   
+
+  .section_ideas
+    &_left_block
+      margin-top: 50px
+      h2
+        font-size: 50px
+        width: 80%
+        margin: 0 auto
+      p
+        margin-top: 30px
+        line-height: 30px
+        width: 90%
+        margin-bottom: 0
+    &_right_block
+      margin-top: 30px
+      margin-bottom: 50px
+      h2
+        background-color: #e5f3fe
+        font-size: 50px
+    &_back_block
+      display: none
+
+  .section_logos
+    &_inner
+      .img_wrapper
+        width: 50%
+        margin-bottom: 50px
+  
+  .section_contact
+    &_inner
+      border-width: 12px
+      .left_block
+        h3
+          margin: 50px 0 50px 0
+        form[name="contact_us"]
+          input
+            font-size: 22px
+
+
