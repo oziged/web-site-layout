@@ -65,7 +65,7 @@ function switchSlide(direction, jumpToSlide) {
     sliderTextMobile.textContent = sliderTextArray[currentSlide];
     sliderText.classList.remove('slider_opacity');
     sliderTextMobile.classList.remove('slider_opacity');
-    imgBlock.style.background = `white url("../src/img/slide${currentSlide}.jpg") no-repeat center center`;
+    imgBlock.style.background = `white url("img/slide${currentSlide}.jpg") no-repeat center center`;
     imgBlock.style.backgroundSize = 'cover';
     imgBlock.classList.remove('slider_translateX');
     prevSlide = sliderSmallNumber.children[currentSlide];
