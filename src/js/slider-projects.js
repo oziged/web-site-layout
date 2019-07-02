@@ -41,7 +41,7 @@ slides.forEach((elem, index) => {
   let div = document.createElement('div');
   div.classList.add('img_wrapper');
   let img = document.createElement('img');
-  img.src = `../src/img/${elem.image}`
+  img.src = `img/${elem.image}`
   div.append(img);
   minSlides.append(div);
   div.addEventListener('click', () => {
@@ -105,7 +105,7 @@ function switchSlide(direction, jumpToSlide) {
       mainIMG.style.opacity = 1;
       descBlock.style.opacity = 1;
     }
-    mainIMG.src = `../src/img/${slides[currentSlide].image}`;
+    mainIMG.src = `img/${slides[currentSlide].image}`;
     number.textContent = currentSlide+1;
     prevSlide = minSlides.children[currentSlide];
     setTimeout(() => {
