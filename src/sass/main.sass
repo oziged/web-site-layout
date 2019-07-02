@@ -278,7 +278,7 @@ button,input,textarea
 .section_work
   overflow: hidden
   width: 100%
-  background: white url("../src/img/work-bg.jpg") no-repeat center center
+  background: white url("img/work-bg.jpg") no-repeat center center
   &_list_wrapper
     margin: 0 auto
     width: 75%
@@ -476,7 +476,16 @@ button,input,textarea
       form[name="contact_us"]
         display: flex
         flex-direction: column
+        .input_wrapper
+          position: relative
+          .error_text
+            position: absolute
+            bottom: 25px
+            left: 0
+            color: red
+            background-color: #ff00000d
         input
+          width: 100%
           font-size: 36px
           font-family: 'Raleway'
           color: black
@@ -489,6 +498,8 @@ button,input,textarea
             color: #e4e6eb
             font-weight: bold
         textarea
+          width: 100%
+          margin-bottom: 50px
           height: 200px
           resize: none
           font-family: 'Raleway'
@@ -499,7 +510,7 @@ button,input,textarea
           &::placeholder
             color: #e4e6eb
         button
-          margin: 45px auto
+          margin: 0 auto 50px auto
           font-size: 16px
           width: min-content
           padding: 15px 65px 15px 65px
@@ -521,16 +532,19 @@ button,input,textarea
         transform: translate(10%,-5%)
 .footer
   width: 100%
-  height: 300px
   background-color: #0f0f0f
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
   img
+    margin-top: 30px
     margin-bottom: 30px
   p
+    padding: 0 50px 0 50px
+    text-align: center
     color: #5d5d5d
+    margin-bottom: 30px
 
 
 

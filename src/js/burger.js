@@ -16,6 +16,3 @@ burger.parentNode.onclick = () => {
   }
 
 }
-
-
-console.log(burger);
